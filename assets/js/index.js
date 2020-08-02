@@ -15,12 +15,7 @@ $(function () {
             layer.close(index);
         });
     })
-
-
-
-
-
-
+})
     // 获取用户的基本信息
     function getuserinfo() {
         $.ajax({
@@ -54,4 +49,3 @@ $(function () {
 
         }
     }
-})
